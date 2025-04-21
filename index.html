@@ -1,59 +1,71 @@
 <!DOCTYPE html>
-<html lang="pt">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, inital-scale=1.0">
-        <title>laly</title>
-        <link rel="stylesheet" href="./style.css">
-    </head>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Finger+Paint&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>laly</title>
+    <link rel="stylesheet" href="./style.css">
+    <style>
+        .grid{
+            display: grid;
+            grid-template-columns: 2;
+            grid-template-rows: 200px 200px 200px;
+            gap: 20px;
+            align-items: center;
+        }
+        #siteantigo{
+            grid-column: span 2;
+        }
+        .spaces{
+            background-color: #815B5B;
+            text-align: center;
+            height: 100px;
+            border-radius: 20%;
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+        .spaces > p{
+            padding-top: 0px;
+            font-family: "Finger Paint", sans-serif;
+            font-size: 30px;
+            color: #FFF8EA;
+        }
+        h1{
+            font-family: "Libre Baskerville", serif;
+            color: #594545;
+            padding-top: 80px;
+        }
+        .header{
+            text-align: center;
+            background-color: #815B5B;
+            height: 200px;
+        }
+        
+
+    </style>
+    
+</head>
 <body>
-<h1 class="text">laly eu te amo mais que tudo nesse mundo</h1>
-<h2 class="text">nao consigo descrever em palavras meu amor por voce</h2>
-<h2 class="text">voce é simplesmente tudo pra mim</h2>
-<hr />
-<h3 class="text">eu simplesmente amo:</h3>
-<ol>
-<li>seus olhinhos</li>
-<li>seu cabelo</li>
-<li>seu jeitinho fofo e amoroso</li>
-<li>seu humor idiota igual o meu</li>
-<li>e muito mais...</li>
-</ol>
-
-<p class="kitty" draggable="true">
-    ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣠⣤⣄⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br />
-    ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⣶⠿⠛⠿⣦⣄⣠⣶⠿⠟⠉⠉⠙⣿⡄⠀⠀⠀⠀⠀⠀⠀⠀<br />
-    ⠀⠀⠀⠀⠀⠀⣀⣀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⣀⣴⡟⠁⠀⠀⠀⠈⢿⣯⠁⠀⠀⠀⠀⠀⠘⣿⡀⠀⠀⠀⠀⠀⠀⠀<br />
-    ⠀⠀⠀⠀⣰⣿⠛⠛⠻⠿⢶⣶⣄⣠⣤⣶⠶⠾⠿⠛⢻⣿⠀⠀⢠⣶⠷⣶⣾⡿⠿⢶⣦⣤⣴⡶⠶⢿⣷⡀⠀⠀⠀⠀⠀⠀<br />
-    ⠀⠀⠀⠀⣿⠃⠀⠀⠀⠀⠀⠈⠙⠋⠉⠀⠀⠀⠀⠀⢸⣿⠀⠀⠸⣧⣰⡿⠃⠀⠀⠀⠙⣿⣇⡀⠀⠀⢹⣷⠀⠀⠀⠀⠀⠀<br />
-    ⠀⠀⠀⠀⣿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⣿⣄⡀⠀⠙⣿⣇⠀⠀⠀⠀⢀⣿⠏⣷⠀⠀⢸⡿⠀⠀⠀⠀⠀⠀<br />
-    ⠀⠀⠀⠀⣿⣇⢀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠛⠻⠷⠞⠛⢻⣧⣤⣤⣴⡾⠿⠴⠋⠀⢠⣿⣧⠀⠀⠀⠀⠀⠀<br />
-    ⠀⠀⠀⠀⠘⣿⣿⠃⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠉⠉⠹⣷⣄⣀⣠⣼⡿⠁⢿⣧⠀⠀⠀⠀⠀<br />
-    ⠀⠀⠀⠀⢠⣿⠃⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠛⠛⠛⠁⠀⠀⠀⣿⣦⠀⣀⣀⣀<br />
-    ⠀⠀⠀⠀⣼⡟⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢰⡶⢿⣿⠛⠛⠛⠋<br />
-    ⠀⠀⠀⠀⣿⠇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⠀⠀⠀⠀⢠⣿⡀⠀⠀⠀<br />
-    ⠀⠀⠀⠀⣿⠀⠀⠀⠀⠀⠀⢠⣀⣠⣤⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⣾⠿⠿⣶⠟⠀⣀⣀⠘⢻⣿⠛⠛⠛⠃<br />
-    ⣠⣤⣴⠶⣿⡷⠚⠻⠧⠀⠀⠀⠹⣿⣿⣷⠀⠀⠀⠀⠀⠀⢀⣀⣀⣀⠀⠀⠀⠀⠙⠃⠀⠀⠉⠀⡼⣻⣻⢿⠿⣿⣆⠀⠀⠀<br />
-    ⠙⠉⠀⠀⠘⣿⡀⢀⣀⡀⠀⠀⠀⠘⠿⠋⠀⠀⠀⠀⠀⠀⣿⡉⣉⣿⡆⠀⠀⠀⠀⠀⠀⠀⠀⣸⢣⡏⢹⠛⠓⢒⣿⣤⣄⠀<br />
-    ⠀⠀⠀⣀⣠⣿⣿⡟⠉⠁⠀⠀⠀⠀⠀⠀⢀⣀⣀⡀⠀⠀⠉⠉⠛⠉⠀⠀⠀⠀⠀⠀⠀⠀⢰⣏⡿⠀⢻⣿⠄⣾⠁⠈⠉⠀<br />
-    ⠀⠀⠀⠛⠁⠀⠘⢿⣦⣠⡼⠆⠀⠀⠀⢠⣿⠋⠛⠿⠿⣷⣄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⡟⡽⠁⢀⣨⣧⣴⠻⣧⠀⠀⠀<br />
-    ⠀⠀⠀⠀⠀⠀⢀⣤⡿⠛⠿⣶⣤⣄⣠⣾⠟⠀⠀⠀⠀⠈⣿⣀⣀⣀⣀⣀⣀⣤⣴⣶⢿⡿⣸⠃⣰⡿⠋⠉⠁⣾⡟⠀⠀⠀<br />
-    ⠀⠀⠀⠀⠀⠀⠻⠏⠀⠀⠀⠀⠈⢹⡿⠃⠀⠀⠀⠀⠀⣸⡿⠛⠛⠛⢉⡿⠋⠉⢹⣧⣸⣷⡏⢸⡏⠀⠀⠀⠀⣿⠇⠀⠀⠀<br />
-    ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢾⣇⠀⠀⠀⢀⣠⣾⠿⠷⠦⠴⠾⠛⠁⠀⠀⠀⢻⣏⠛⠓⠚⢿⣦⠀⣠⣾⠟⠀⠀⠀⠀<br />
-    ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢈⣿⣿⣿⣟⠛⠋⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣿⣷⣶⣤⣤⠾⠟⠛⠁⠀⠀⠀⠀⠀<br />
-    ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣴⡿⠋⠀⠀⠉⣹⡿⠛⠓⠲⠦⠤⠤⠤⠶⠶⢾⣟⠉⠉⠻⣦⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br />
-    ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢠⣾⠏⠀⠀⠀⠀⠘⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠘⠃⠀⠀⠈⢿⣆⠀⠀⠀⠀⠀⠀⠀⠀⠀<br />
-    ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠘⢿⣶⣤⣀⣀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣀⣼⡿⠀⠀⠀⠀⠀⠀⠀⠀⠀<br />
-    ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⢹⣟⠛⠿⠿⠶⠶⣶⣶⣶⣶⣶⣴⣶⣶⣶⠶⠶⠶⠿⠟⢿⡏⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br />
-    ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⣿⠶⢤⣤⣤⣀⣀⣀⣄⣼⣿⣤⣀⣀⣀⣀⣀⣤⠤⢶⣿⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br />
-    ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⢿⣆⠀⠀⠀⠀⠈⠀⠀⠀⣿⠀⠀⠀⠀⠀⠀⠀⢀⣼⡟⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br />
-    ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠻⣷⣦⣀⣀⣀⣀⣠⣾⣿⣤⣀⣀⣀⣀⣠⣴⡿⠋⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br />
-    ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⠙⠛⠛⠛⠉⠁⠀⠉⠙⠛⠛⠋⠉⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀<br />
-
-</p>
-<hr />
-
-<a href="./pedido.html"><img src="./imagens/44107201deb7e251864b43352cbfdd97.png"/></a>
-
+    <div class="header"><h1>Site da Laly</h1></div>
+    <div class="grid">
+        <div class="spaces" id="fotinhos">
+            <p>fotinhos</p>
+        </div>
+        <div class="spaces" id="mensagens">
+            <p>mensagens</p>
+        </div>
+        <div class="spaces" id="desenhos">
+            <p>desenhos</p>
+        </div>
+        <div class="spaces" id="documentos">
+            <p>documentos</p>
+        </div>
+        <div onclick="location.href='./old/old.html'" style="cursor:pointer;" class="spaces" id="siteantigo">
+            <p>site antigo</p>
+        </div>
+    </div>
 </body>
 </html>
