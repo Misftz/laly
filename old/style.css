@@ -1,0 +1,32 @@
+*{
+    background-color: #E7CCCC;
+    text-align: center;
+}
+
+
+
+.text{
+    color: #674188;
+}
+
+li{
+    color: #8D77AB;
+    display:grid;
+}
+
+.text2{
+    color: #8D77AB;
+}
+
+.kitty{
+    color: #A64D79;
+}
+
+hr{
+    color: #1A1A1D;
+}
+
+a{
+    color:#8D77AB;
+    text-decoration: none;
+}
